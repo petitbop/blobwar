@@ -3,8 +3,7 @@
 
 
 void Strategy::applyMove (const move& mv) {
-    _blobs.set(mv.ox, mv.oy, -1);
-    _blobs.set(mv.nx, mv.ny, _current_player);
+        // To be completed...
 }
 
 Sint32 Strategy::estimateCurrentScore () const {
